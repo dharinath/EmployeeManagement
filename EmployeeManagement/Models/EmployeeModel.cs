@@ -14,6 +14,7 @@ namespace EmployeeManagement.Models
         public double BasicPay { get; set; }
         public string EmployeeType { get; set; }
         public double Salary { get; set; }
+        public double HRA { get; set; }
         
     }
 }
