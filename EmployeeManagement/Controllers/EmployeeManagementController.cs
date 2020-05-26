@@ -6,7 +6,7 @@ using System.Web.Http;
 
 namespace EmployeeManagement.Controllers
 {
-    [RoutePrefix("api/employeemanagement")]
+    [RoutePrefix("api/employeemanagements")]
     public class EmployeeManagementController : ApiController
     {
         private readonly IEmployeeManagementService employeeService;
